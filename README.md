@@ -1,19 +1,19 @@
-📰 Fake News Detection App
+📰 # Fake News Detection App
+=========================
 
 🚀 Detect whether a news article is REAL or FAKE using Machine Learning!
 This project uses TF-IDF Vectorization and ML models such as
 Logistic Regression, LinearSVC, Naive Bayes, and Random Forest.
 
-============================================================
 📌 Project Overview
-============================================================
+====================
 Fake news detection using Natural Language Processing (NLP)
 and Machine Learning techniques.
 The app is built with Streamlit for interactive web usage.
 
-============================================================
+
 ✨ Features
-============================================================
+==============
 
 🧹 Text Cleaning & Preprocessing
 - Convert text to lowercase
@@ -47,16 +47,17 @@ The app is built with Streamlit for interactive web usage.
 - GridSearchCV
 - Accuracy, Precision, Recall, F1-score
 
-============================================================
+
 🗂 Dataset
-============================================================
+=============
 
 Fake.csv  → Fake news articles (Label: 0)
+
 True.csv  → Real news articles (Label: 1)
 
-============================================================
+
 ⚙️ Installation
-============================================================
+====================
 
 Clone repository:
 git clone https://github.com/yourusername/fake-news-detector.git
@@ -69,9 +70,9 @@ Download NLTK stopwords:
 import nltk
 nltk.download('stopwords')
 
-============================================================
+
 🛠 Usage
-============================================================
+==============
 
 Run the Streamlit app:
 streamlit run app.py
@@ -79,9 +80,9 @@ streamlit run app.py
 Open browser at:
 http://localhost:8501
 
-============================================================
+
 🧠 Model Training Process
-============================================================
+==========================
 
 1. Preprocess text using clean_text()
 2. Convert text to numerical features using TF-IDF Vectorizer
@@ -97,9 +98,9 @@ http://localhost:8501
    - ROC-AUC
 5. Save best model & vectorizer using pickle
 
-============================================================
+
 🖥 Tech Stack
-============================================================
+================
 
 Language:
 - Python 3.x
@@ -115,9 +116,9 @@ Libraries:
 - streamlit
 - pickle
 
-============================================================
+
 📦 Project Structure
-============================================================
+=====================
 
 fake-news-detector/
 │
@@ -128,9 +129,8 @@ fake-news-detector/
 ├── tfidf_vectorizer.pkl
 └── Fake_News.ipynb
 
-============================================================
 🚀 Future Improvements
-============================================================
+==========================
 
 - Deep Learning (LSTM / BERT)
 - Cloud Deployment (AWS / Render / Heroku)
