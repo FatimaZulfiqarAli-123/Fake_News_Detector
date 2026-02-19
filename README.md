@@ -120,7 +120,8 @@ Libraries:
 📦 Project Structure
 =====================
 
-fake-news-detector/
+#fake-news-detector
+
 │
 ├── app.py
 
