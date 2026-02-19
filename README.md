@@ -123,10 +123,15 @@ Libraries:
 fake-news-detector/
 │
 ├── app.py
+
 ├── Fake.csv
+
 ├── True.csv
+
 ├── saved_model.pkl
+
 ├── tfidf_vectorizer.pkl
+
 └── Fake_News.ipynb
 
 🚀 Future Improvements
